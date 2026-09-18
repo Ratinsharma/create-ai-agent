@@ -42,7 +42,9 @@ create-ai-agent/
 ├── scripts/
 │   └── scaffold_agent.py         # generate a new agent project from the templates
 ├── README.md
-└── LICENSE
+├── CONTRIBUTING.md
+├── LICENSE
+└── .github/                      # PR + issue templates
 ```
 
 ---
@@ -119,10 +121,18 @@ Principles distilled from 18 AI Engineer 2026 conference talks, including:
 - *Skills & New SDKs* — Elvin A · *The Harness Becomes a Claw* — Sam Bhagwat · *The Save Button* — Hamza Tahir
 - *Loop Engineering* — Kyle Mistele · *The Harness Is Not Enough* — Dex Horthy · *HTML Is All Agents Need* — James Russo
 
-Full per-talk crux: companion skill [`building-ai-agents-2026`](https://github.com/Ratinsharma).
+Full per-talk crux lives in the companion field guide `building-ai-agents-2026` (not published under this account yet). This repo ships the production recipe + scaffolder distilled from those talks.
 
 ---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Keep the recipe honest: verify deterministically, no invented APIs.
 
 ## License
 
 MIT — see [LICENSE](LICENSE). Free to use, fork, and ship.
+
+## Author
+
+**Ratin Sharma** — [github.com/Ratinsharma](https://github.com/Ratinsharma)
